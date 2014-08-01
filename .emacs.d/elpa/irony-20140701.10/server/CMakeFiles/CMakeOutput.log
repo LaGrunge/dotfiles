@@ -1,0 +1,507 @@
+The system is: Linux - 3.10.28-4 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/lagrunge/bin/extra/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/lagrunge/bin/extra/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp
+
+Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"
+/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/home/lagrunge/bin/extra/gcc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/lagrunge/bin/extra/gcc         CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp
+
+Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"
+/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/home/lagrunge/bin/extra/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/lagrunge/bin/extra/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+2014-07-21T19:22:04.537166 Debug: Load handlers.tool_handler
+2014-07-21T19:22:04.553915 Debug: check GCC by 9840231 task-id in /home/lagrunge/.tools dir
+2014-07-21T19:22:04.554049 Debug: GCC was found
+2014-07-21T19:22:04.554275 Debug: run /home/lagrunge/.tools/9840231/gcc/bin/gcc-4.8 with args ['-v', 'CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o', '-o', 'cmTryCompileExec', '-rdynamic'] and {'LC_NUMERIC': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LC_PAPER': 'ru_RU.UTF-8', 'SSH_CLIENT': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 22', 'CVS_RSH': 'ssh', 'LOGNAME': 'lagrunge', 'USER': 'lagrunge', 'PROMPT_COMMAND': 'pwd>&8;kill -STOP $$', 'HOME': '/home/lagrunge', 'CPPFILESMASK': '.*\\.(cpp|h)$', 'PATH': '/home/lagrunge/bin:/home/lagrunge/local/bin:/home/lagrunge/bin:/home/lagrunge/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/place/home/lagrunge/proj/arcadia/ymake:/place/home/lagrunge/proj/arcadia/ymake', 'CMAKE_PREFIX_PATH': '/home/lagrunge/local/', 'MAKEFLAGS': 'w', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'MAKELEVEL': '2', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_ADDRESS': 'ru_RU.UTF-8', 'MC_TMPDIR': '/var/tmp/mc-lagrunge', 'TMPDIR': '/var/tmp', 'GREP_COLOR': '1;32', 'MFLAGS': '-w', 'CVSROOT': 'tree.yandex.ru:/opt/CVSROOT', 'MC_SID': '10133', 'CC': '/home/lagrunge/bin/extra/gcc', 'SHLVL': '5', 'TMUX': '/place/vartmp/tmux-29970/default,21358,0', 'CS_GUESS_ROOT': 'yes', '_': '/home/lagrunge/bin/ya', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'GREP_OPTIONS': '--color=auto', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CXX': '/home/lagrunge/bin/extra/c++', 'SSH_TTY': '/dev/pts/1', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'HISTCONTROL': 'ignoredups:erasedups', 'LC_MONETARY': 'ru_RU.UTF-8', 'PWD': '/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp', 'LC_NAME': 'ru_RU.UTF-8', 'MAIL': '/var/mail/lagrunge', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_CONNECTION': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 2a02:6b8:0:c19::b29a:dc0c 22', 'TMUX_PANE': '%1'} env
+Using built-in specs.
+COLLECT_GCC=/place/home/lagrunge/.tools/9840231/gcc/bin/gcc-4.8
+COLLECT_LTO_WRAPPER=/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /place/sandbox-data/tasks/6/3/9840236/gcc-4.8.2/configure --disable-libstdcxx-pch --prefix=/place/sandbox-data/tasks/6/3/9840236/gcc --with-gmp=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpfr=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpc=/place/sandbox-data/tasks/6/3/9840236/output/1 --program-suffix=-4.8 --enable-cloog-backend=isl --with-ppl=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-cloog=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-isl=/place/sandbox-data/tasks/6/3/9840236/output/1 --enable-languages=c,c++ --enable-__cxa_atexit --disable-nls --disable-multilib --disable-cloog-version-check --enable-build-poststage1-with-cxx --enable-build-with-cxx --with-boot-ldflags='-static-libgcc -static-libstdc++' --disable-gnu-unique-object --with-as=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/as --with-ld=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/ld --enable-gold=yes
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/usr/include/x86_64-linux-gnu' '-B' '/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/lagrunge/bin/extra/gcc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/home/lagrunge/bin/extra/gcc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [2014-07-21T19:22:04.537166 Debug: Load handlers.tool_handler]
+  ignore line: [2014-07-21T19:22:04.553915 Debug: check GCC by 9840231 task-id in /home/lagrunge/.tools dir]
+  ignore line: [2014-07-21T19:22:04.554049 Debug: GCC was found]
+  ignore line: [2014-07-21T19:22:04.554275 Debug: run /home/lagrunge/.tools/9840231/gcc/bin/gcc-4.8 with args ['-v', 'CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o', '-o', 'cmTryCompileExec', '-rdynamic'] and {'LC_NUMERIC': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01]
+  ignore line: [34:ln=01]
+  ignore line: [36:mh=00:pi=40]
+  ignore line: [33:so=01]
+  ignore line: [35:do=01]
+  ignore line: [35:bd=40]
+  ignore line: [33]
+  ignore line: [01:cd=40]
+  ignore line: [33]
+  ignore line: [01:or=40]
+  ignore line: [31]
+  ignore line: [01:su=37]
+  ignore line: [41:sg=30]
+  ignore line: [43:ca=30]
+  ignore line: [41:tw=30]
+  ignore line: [42:ow=34]
+  ignore line: [42:st=37]
+  ignore line: [44:ex=01]
+  ignore line: [32:*.tar=01]
+  ignore line: [31:*.tgz=01]
+  ignore line: [31:*.arj=01]
+  ignore line: [31:*.taz=01]
+  ignore line: [31:*.lzh=01]
+  ignore line: [31:*.lzma=01]
+  ignore line: [31:*.tlz=01]
+  ignore line: [31:*.txz=01]
+  ignore line: [31:*.zip=01]
+  ignore line: [31:*.z=01]
+  ignore line: [31:*.Z=01]
+  ignore line: [31:*.dz=01]
+  ignore line: [31:*.gz=01]
+  ignore line: [31:*.lz=01]
+  ignore line: [31:*.xz=01]
+  ignore line: [31:*.bz2=01]
+  ignore line: [31:*.bz=01]
+  ignore line: [31:*.tbz=01]
+  ignore line: [31:*.tbz2=01]
+  ignore line: [31:*.tz=01]
+  ignore line: [31:*.deb=01]
+  ignore line: [31:*.rpm=01]
+  ignore line: [31:*.jar=01]
+  ignore line: [31:*.war=01]
+  ignore line: [31:*.ear=01]
+  ignore line: [31:*.sar=01]
+  ignore line: [31:*.rar=01]
+  ignore line: [31:*.ace=01]
+  ignore line: [31:*.zoo=01]
+  ignore line: [31:*.cpio=01]
+  ignore line: [31:*.7z=01]
+  ignore line: [31:*.rz=01]
+  ignore line: [31:*.jpg=01]
+  ignore line: [35:*.jpeg=01]
+  ignore line: [35:*.gif=01]
+  ignore line: [35:*.bmp=01]
+  ignore line: [35:*.pbm=01]
+  ignore line: [35:*.pgm=01]
+  ignore line: [35:*.ppm=01]
+  ignore line: [35:*.tga=01]
+  ignore line: [35:*.xbm=01]
+  ignore line: [35:*.xpm=01]
+  ignore line: [35:*.tif=01]
+  ignore line: [35:*.tiff=01]
+  ignore line: [35:*.png=01]
+  ignore line: [35:*.svg=01]
+  ignore line: [35:*.svgz=01]
+  ignore line: [35:*.mng=01]
+  ignore line: [35:*.pcx=01]
+  ignore line: [35:*.mov=01]
+  ignore line: [35:*.mpg=01]
+  ignore line: [35:*.mpeg=01]
+  ignore line: [35:*.m2v=01]
+  ignore line: [35:*.mkv=01]
+  ignore line: [35:*.webm=01]
+  ignore line: [35:*.ogm=01]
+  ignore line: [35:*.mp4=01]
+  ignore line: [35:*.m4v=01]
+  ignore line: [35:*.mp4v=01]
+  ignore line: [35:*.vob=01]
+  ignore line: [35:*.qt=01]
+  ignore line: [35:*.nuv=01]
+  ignore line: [35:*.wmv=01]
+  ignore line: [35:*.asf=01]
+  ignore line: [35:*.rm=01]
+  ignore line: [35:*.rmvb=01]
+  ignore line: [35:*.flc=01]
+  ignore line: [35:*.avi=01]
+  ignore line: [35:*.fli=01]
+  ignore line: [35:*.flv=01]
+  ignore line: [35:*.gl=01]
+  ignore line: [35:*.dl=01]
+  ignore line: [35:*.xcf=01]
+  ignore line: [35:*.xwd=01]
+  ignore line: [35:*.yuv=01]
+  ignore line: [35:*.cgm=01]
+  ignore line: [35:*.emf=01]
+  ignore line: [35:*.axv=01]
+  ignore line: [35:*.anx=01]
+  ignore line: [35:*.ogv=01]
+  ignore line: [35:*.ogx=01]
+  ignore line: [35:*.aac=00]
+  ignore line: [36:*.au=00]
+  ignore line: [36:*.flac=00]
+  ignore line: [36:*.mid=00]
+  ignore line: [36:*.midi=00]
+  ignore line: [36:*.mka=00]
+  ignore line: [36:*.mp3=00]
+  ignore line: [36:*.mpc=00]
+  ignore line: [36:*.ogg=00]
+  ignore line: [36:*.ra=00]
+  ignore line: [36:*.wav=00]
+  ignore line: [36:*.axa=00]
+  ignore line: [36:*.oga=00]
+  ignore line: [36:*.spx=00]
+  ignore line: [36:*.xspf=00]
+  ignore line: [36:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LC_PAPER': 'ru_RU.UTF-8', 'SSH_CLIENT': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 22', 'CVS_RSH': 'ssh', 'LOGNAME': 'lagrunge', 'USER': 'lagrunge', 'PROMPT_COMMAND': 'pwd>&8]
+  ignore line: [kill -STOP $$', 'HOME': '/home/lagrunge', 'CPPFILESMASK': '.*\\.(cpp|h)$', 'PATH': '/home/lagrunge/bin:/home/lagrunge/local/bin:/home/lagrunge/bin:/home/lagrunge/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/place/home/lagrunge/proj/arcadia/ymake:/place/home/lagrunge/proj/arcadia/ymake', 'CMAKE_PREFIX_PATH': '/home/lagrunge/local/', 'MAKEFLAGS': 'w', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'MAKELEVEL': '2', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_ADDRESS': 'ru_RU.UTF-8', 'MC_TMPDIR': '/var/tmp/mc-lagrunge', 'TMPDIR': '/var/tmp', 'GREP_COLOR': '1]
+  ignore line: [32', 'MFLAGS': '-w', 'CVSROOT': 'tree.yandex.ru:/opt/CVSROOT', 'MC_SID': '10133', 'CC': '/home/lagrunge/bin/extra/gcc', 'SHLVL': '5', 'TMUX': '/place/vartmp/tmux-29970/default,21358,0', 'CS_GUESS_ROOT': 'yes', '_': '/home/lagrunge/bin/ya', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'GREP_OPTIONS': '--color=auto', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CXX': '/home/lagrunge/bin/extra/c++', 'SSH_TTY': '/dev/pts/1', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'HISTCONTROL': 'ignoredups:erasedups', 'LC_MONETARY': 'ru_RU.UTF-8', 'PWD': '/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp', 'LC_NAME': 'ru_RU.UTF-8', 'MAIL': '/var/mail/lagrunge', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_CONNECTION': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 2a02:6b8:0:c19::b29a:dc0c 22', 'TMUX_PANE': '%1'} env]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/place/home/lagrunge/.tools/9840231/gcc/bin/gcc-4.8]
+  ignore line: [COLLECT_LTO_WRAPPER=/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /place/sandbox-data/tasks/6/3/9840236/gcc-4.8.2/configure --disable-libstdcxx-pch --prefix=/place/sandbox-data/tasks/6/3/9840236/gcc --with-gmp=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpfr=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpc=/place/sandbox-data/tasks/6/3/9840236/output/1 --program-suffix=-4.8 --enable-cloog-backend=isl --with-ppl=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-cloog=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-isl=/place/sandbox-data/tasks/6/3/9840236/output/1 --enable-languages=c,c++ --enable-__cxa_atexit --disable-nls --disable-multilib --disable-cloog-version-check --enable-build-poststage1-with-cxx --enable-build-with-cxx --with-boot-ldflags='-static-libgcc -static-libstdc++' --disable-gnu-unique-object --with-as=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/as --with-ld=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/ld --enable-gold=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/usr/include/x86_64-linux-gnu' '-B' '/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib/gcc]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/place/home/lagrunge/.tools/9840231/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/place/home/lagrunge/.tools/9840231/gcc/lib/gcc;/place/home/lagrunge/.tools/9840231/gcc/lib64;/lib64;/place/home/lagrunge/.tools/9840231/gcc/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp
+
+Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"
+/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/home/lagrunge/bin/extra/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/lagrunge/bin/extra/c++          CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp
+
+Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"
+/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/home/lagrunge/bin/extra/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/lagrunge/bin/extra/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+2014-07-21T19:22:05.154716 Debug: Load handlers.tool_handler
+2014-07-21T19:22:05.171547 Debug: check GCC by 9840231 task-id in /home/lagrunge/.tools dir
+2014-07-21T19:22:05.171683 Debug: GCC was found
+2014-07-21T19:22:05.171904 Debug: run /home/lagrunge/.tools/9840231/gcc/bin/g++-4.8 with args ['-v', 'CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o', '-o', 'cmTryCompileExec', '-rdynamic'] and {'LC_NUMERIC': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LC_PAPER': 'ru_RU.UTF-8', 'SSH_CLIENT': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 22', 'CVS_RSH': 'ssh', 'LOGNAME': 'lagrunge', 'USER': 'lagrunge', 'PROMPT_COMMAND': 'pwd>&8;kill -STOP $$', 'HOME': '/home/lagrunge', 'CPPFILESMASK': '.*\\.(cpp|h)$', 'PATH': '/home/lagrunge/bin:/home/lagrunge/local/bin:/home/lagrunge/bin:/home/lagrunge/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/place/home/lagrunge/proj/arcadia/ymake:/place/home/lagrunge/proj/arcadia/ymake', 'CMAKE_PREFIX_PATH': '/home/lagrunge/local/', 'MAKEFLAGS': 'w', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'MAKELEVEL': '2', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_ADDRESS': 'ru_RU.UTF-8', 'MC_TMPDIR': '/var/tmp/mc-lagrunge', 'TMPDIR': '/var/tmp', 'GREP_COLOR': '1;32', 'MFLAGS': '-w', 'CVSROOT': 'tree.yandex.ru:/opt/CVSROOT', 'MC_SID': '10133', 'CC': '/home/lagrunge/bin/extra/gcc', 'SHLVL': '5', 'TMUX': '/place/vartmp/tmux-29970/default,21358,0', 'CS_GUESS_ROOT': 'yes', '_': '/home/lagrunge/bin/ya', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'GREP_OPTIONS': '--color=auto', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CXX': '/home/lagrunge/bin/extra/c++', 'SSH_TTY': '/dev/pts/1', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'HISTCONTROL': 'ignoredups:erasedups', 'LC_MONETARY': 'ru_RU.UTF-8', 'PWD': '/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp', 'LC_NAME': 'ru_RU.UTF-8', 'MAIL': '/var/mail/lagrunge', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_CONNECTION': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 2a02:6b8:0:c19::b29a:dc0c 22', 'TMUX_PANE': '%1'} env
+Using built-in specs.
+COLLECT_GCC=/place/home/lagrunge/.tools/9840231/gcc/bin/g++-4.8
+COLLECT_LTO_WRAPPER=/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: /place/sandbox-data/tasks/6/3/9840236/gcc-4.8.2/configure --disable-libstdcxx-pch --prefix=/place/sandbox-data/tasks/6/3/9840236/gcc --with-gmp=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpfr=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpc=/place/sandbox-data/tasks/6/3/9840236/output/1 --program-suffix=-4.8 --enable-cloog-backend=isl --with-ppl=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-cloog=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-isl=/place/sandbox-data/tasks/6/3/9840236/output/1 --enable-languages=c,c++ --enable-__cxa_atexit --disable-nls --disable-multilib --disable-cloog-version-check --enable-build-poststage1-with-cxx --enable-build-with-cxx --with-boot-ldflags='-static-libgcc -static-libstdc++' --disable-gnu-unique-object --with-as=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/as --with-ld=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/ld --enable-gold=yes
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../x86_64-unknown-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/usr/include/x86_64-linux-gnu' '-B' '/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/lagrunge/bin/extra/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/home/lagrunge/bin/extra/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [2014-07-21T19:22:05.154716 Debug: Load handlers.tool_handler]
+  ignore line: [2014-07-21T19:22:05.171547 Debug: check GCC by 9840231 task-id in /home/lagrunge/.tools dir]
+  ignore line: [2014-07-21T19:22:05.171683 Debug: GCC was found]
+  ignore line: [2014-07-21T19:22:05.171904 Debug: run /home/lagrunge/.tools/9840231/gcc/bin/g++-4.8 with args ['-v', 'CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o', '-o', 'cmTryCompileExec', '-rdynamic'] and {'LC_NUMERIC': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01]
+  ignore line: [34:ln=01]
+  ignore line: [36:mh=00:pi=40]
+  ignore line: [33:so=01]
+  ignore line: [35:do=01]
+  ignore line: [35:bd=40]
+  ignore line: [33]
+  ignore line: [01:cd=40]
+  ignore line: [33]
+  ignore line: [01:or=40]
+  ignore line: [31]
+  ignore line: [01:su=37]
+  ignore line: [41:sg=30]
+  ignore line: [43:ca=30]
+  ignore line: [41:tw=30]
+  ignore line: [42:ow=34]
+  ignore line: [42:st=37]
+  ignore line: [44:ex=01]
+  ignore line: [32:*.tar=01]
+  ignore line: [31:*.tgz=01]
+  ignore line: [31:*.arj=01]
+  ignore line: [31:*.taz=01]
+  ignore line: [31:*.lzh=01]
+  ignore line: [31:*.lzma=01]
+  ignore line: [31:*.tlz=01]
+  ignore line: [31:*.txz=01]
+  ignore line: [31:*.zip=01]
+  ignore line: [31:*.z=01]
+  ignore line: [31:*.Z=01]
+  ignore line: [31:*.dz=01]
+  ignore line: [31:*.gz=01]
+  ignore line: [31:*.lz=01]
+  ignore line: [31:*.xz=01]
+  ignore line: [31:*.bz2=01]
+  ignore line: [31:*.bz=01]
+  ignore line: [31:*.tbz=01]
+  ignore line: [31:*.tbz2=01]
+  ignore line: [31:*.tz=01]
+  ignore line: [31:*.deb=01]
+  ignore line: [31:*.rpm=01]
+  ignore line: [31:*.jar=01]
+  ignore line: [31:*.war=01]
+  ignore line: [31:*.ear=01]
+  ignore line: [31:*.sar=01]
+  ignore line: [31:*.rar=01]
+  ignore line: [31:*.ace=01]
+  ignore line: [31:*.zoo=01]
+  ignore line: [31:*.cpio=01]
+  ignore line: [31:*.7z=01]
+  ignore line: [31:*.rz=01]
+  ignore line: [31:*.jpg=01]
+  ignore line: [35:*.jpeg=01]
+  ignore line: [35:*.gif=01]
+  ignore line: [35:*.bmp=01]
+  ignore line: [35:*.pbm=01]
+  ignore line: [35:*.pgm=01]
+  ignore line: [35:*.ppm=01]
+  ignore line: [35:*.tga=01]
+  ignore line: [35:*.xbm=01]
+  ignore line: [35:*.xpm=01]
+  ignore line: [35:*.tif=01]
+  ignore line: [35:*.tiff=01]
+  ignore line: [35:*.png=01]
+  ignore line: [35:*.svg=01]
+  ignore line: [35:*.svgz=01]
+  ignore line: [35:*.mng=01]
+  ignore line: [35:*.pcx=01]
+  ignore line: [35:*.mov=01]
+  ignore line: [35:*.mpg=01]
+  ignore line: [35:*.mpeg=01]
+  ignore line: [35:*.m2v=01]
+  ignore line: [35:*.mkv=01]
+  ignore line: [35:*.webm=01]
+  ignore line: [35:*.ogm=01]
+  ignore line: [35:*.mp4=01]
+  ignore line: [35:*.m4v=01]
+  ignore line: [35:*.mp4v=01]
+  ignore line: [35:*.vob=01]
+  ignore line: [35:*.qt=01]
+  ignore line: [35:*.nuv=01]
+  ignore line: [35:*.wmv=01]
+  ignore line: [35:*.asf=01]
+  ignore line: [35:*.rm=01]
+  ignore line: [35:*.rmvb=01]
+  ignore line: [35:*.flc=01]
+  ignore line: [35:*.avi=01]
+  ignore line: [35:*.fli=01]
+  ignore line: [35:*.flv=01]
+  ignore line: [35:*.gl=01]
+  ignore line: [35:*.dl=01]
+  ignore line: [35:*.xcf=01]
+  ignore line: [35:*.xwd=01]
+  ignore line: [35:*.yuv=01]
+  ignore line: [35:*.cgm=01]
+  ignore line: [35:*.emf=01]
+  ignore line: [35:*.axv=01]
+  ignore line: [35:*.anx=01]
+  ignore line: [35:*.ogv=01]
+  ignore line: [35:*.ogx=01]
+  ignore line: [35:*.aac=00]
+  ignore line: [36:*.au=00]
+  ignore line: [36:*.flac=00]
+  ignore line: [36:*.mid=00]
+  ignore line: [36:*.midi=00]
+  ignore line: [36:*.mka=00]
+  ignore line: [36:*.mp3=00]
+  ignore line: [36:*.mpc=00]
+  ignore line: [36:*.ogg=00]
+  ignore line: [36:*.ra=00]
+  ignore line: [36:*.wav=00]
+  ignore line: [36:*.axa=00]
+  ignore line: [36:*.oga=00]
+  ignore line: [36:*.spx=00]
+  ignore line: [36:*.xspf=00]
+  ignore line: [36:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LC_PAPER': 'ru_RU.UTF-8', 'SSH_CLIENT': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 22', 'CVS_RSH': 'ssh', 'LOGNAME': 'lagrunge', 'USER': 'lagrunge', 'PROMPT_COMMAND': 'pwd>&8]
+  ignore line: [kill -STOP $$', 'HOME': '/home/lagrunge', 'CPPFILESMASK': '.*\\.(cpp|h)$', 'PATH': '/home/lagrunge/bin:/home/lagrunge/local/bin:/home/lagrunge/bin:/home/lagrunge/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/place/home/lagrunge/proj/arcadia/ymake:/place/home/lagrunge/proj/arcadia/ymake', 'CMAKE_PREFIX_PATH': '/home/lagrunge/local/', 'MAKEFLAGS': 'w', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'MAKELEVEL': '2', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_ADDRESS': 'ru_RU.UTF-8', 'MC_TMPDIR': '/var/tmp/mc-lagrunge', 'TMPDIR': '/var/tmp', 'GREP_COLOR': '1]
+  ignore line: [32', 'MFLAGS': '-w', 'CVSROOT': 'tree.yandex.ru:/opt/CVSROOT', 'MC_SID': '10133', 'CC': '/home/lagrunge/bin/extra/gcc', 'SHLVL': '5', 'TMUX': '/place/vartmp/tmux-29970/default,21358,0', 'CS_GUESS_ROOT': 'yes', '_': '/home/lagrunge/bin/ya', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'GREP_OPTIONS': '--color=auto', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CXX': '/home/lagrunge/bin/extra/c++', 'SSH_TTY': '/dev/pts/1', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'HISTCONTROL': 'ignoredups:erasedups', 'LC_MONETARY': 'ru_RU.UTF-8', 'PWD': '/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp', 'LC_NAME': 'ru_RU.UTF-8', 'MAIL': '/var/mail/lagrunge', 'LC_TIME': 'ru_RU.UTF-8', 'SSH_CONNECTION': '2a02:6b8:0:408:d4c2:5c89:7744:7655 41379 2a02:6b8:0:c19::b29a:dc0c 22', 'TMUX_PANE': '%1'} env]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/place/home/lagrunge/.tools/9840231/gcc/bin/g++-4.8]
+  ignore line: [COLLECT_LTO_WRAPPER=/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: /place/sandbox-data/tasks/6/3/9840236/gcc-4.8.2/configure --disable-libstdcxx-pch --prefix=/place/sandbox-data/tasks/6/3/9840236/gcc --with-gmp=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpfr=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-mpc=/place/sandbox-data/tasks/6/3/9840236/output/1 --program-suffix=-4.8 --enable-cloog-backend=isl --with-ppl=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-cloog=/place/sandbox-data/tasks/6/3/9840236/output/1 --with-isl=/place/sandbox-data/tasks/6/3/9840236/output/1 --enable-languages=c,c++ --enable-__cxa_atexit --disable-nls --disable-multilib --disable-cloog-version-check --enable-build-poststage1-with-cxx --enable-build-with-cxx --with-boot-ldflags='-static-libgcc -static-libstdc++' --disable-gnu-unique-object --with-as=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/as --with-ld=/place/sandbox-data/tasks/6/3/9840236/gcc/bin/ld --enable-gold=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../x86_64-unknown-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64/:/lib/../lib64/:/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/usr/include/x86_64-linux-gnu' '-B' '/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64 -L/lib/../lib64 -L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../.. CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.8.2]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib/gcc]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../../../lib64] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/place/home/lagrunge/.tools/9840231/gcc/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.8.2/../../..] ==> [/place/home/lagrunge/.tools/9840231/gcc/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/place/home/lagrunge/.tools/9840231/gcc/lib/gcc/x86_64-unknown-linux-gnu/4.8.2;/place/home/lagrunge/.tools/9840231/gcc/lib/gcc;/place/home/lagrunge/.tools/9840231/gcc/lib64;/lib64;/place/home/lagrunge/.tools/9840231/gcc/lib]
+
+
+Performing C++ SOURCE FILE Test HAS_STDCXX11 succeded with the following output:
+Change Dir: /home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp
+
+Run Build Command:/home/lagrunge/local/bin/make "cmTryCompileExec/fast"
+/home/lagrunge/local/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/src.cxx.o
+/home/lagrunge/bin/extra/c++    -DHAS_STDCXX11   -std=c++11 -o CMakeFiles/cmTryCompileExec.dir/src.cxx.o -c /home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/lagrunge/bin/extra/c++      -DHAS_STDCXX11    CMakeFiles/cmTryCompileExec.dir/src.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/place/home/lagrunge/.emacs.d/elpa/irony-20140701.10/server/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
